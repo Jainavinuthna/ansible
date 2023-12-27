@@ -4,7 +4,7 @@
   - name: print persons
     ansible.builtin.debug:
       msg: "Hello {{item}}" # item is the default 
-    loops:
+    loop:
     - Nk
     - Ram
     - Azam
